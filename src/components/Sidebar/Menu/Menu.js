@@ -15,6 +15,9 @@ const Menu = ({ menu }: Props) => (
     <ul className={styles['menu__list']}>
       {menu.map((item) => (
         <li className={styles['menu__list-item']} key={item.path}>
+          {item.external ? (
+          <a href={item.path} target="_blank">{item.label}</a>
+          ) : (
           <Link
             to={item.path}
             className={styles['menu__list-item-link']}
@@ -22,6 +25,7 @@ const Menu = ({ menu }: Props) => (
           >
             {item.label}
           </Link>
+          )}
         </li>
       ))}
     </ul>

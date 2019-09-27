@@ -1,33 +1,35 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://alexmckinnon.me',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Alex McKinnon',
+  subtitle: '',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: '',
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'Posts',
       path: '/'
     },
     {
-      label: 'About me',
-      path: '/pages/about'
+      label: 'Github',
+      path: 'https://github.com/alexmckinnon',
+      external: true
     },
     {
-      label: 'Contact me',
-      path: '/pages/contacts'
+      label: 'LinkedIn',
+      path: 'https://www.linkedin.com/in/alexrmckinnon/',
+      external: true
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Alex McKinnon',
+    photo: '/alex.jpg',
+    bio: 'Full-stack web developer from Nanaimo, BC, Canada',
     contacts: {
       email: '#',
       telegram: '#',
