@@ -29,7 +29,7 @@ module.exports = {
   author: {
     name: 'Alex McKinnon',
     photo: '/alex.jpg',
-    bio: 'Full-stack web developer from Nanaimo, BC, Canada',
+    bio: 'Software/Systems Engineer from Nanaimo, BC, Canada',
     contacts: {
       email: '#',
       telegram: '#',
